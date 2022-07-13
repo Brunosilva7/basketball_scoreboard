@@ -39,4 +39,6 @@ let resetGuess = document.querySelector(".pointGuess")
 function reset(){
   resetHome.innerText = 0
   resetGuess.innerText = 0
+  homePoint = 0
+  guessPoint = 0
 }
