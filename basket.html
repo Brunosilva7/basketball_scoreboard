@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="basket.css">
+        <link href="http://fonts.cdnfonts.com/css/digital-numbers" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div class="home">
+                <h3>HOME</h3>
+                <p id="pointHome">0</p>
+                <button onclick="addOneHome()">+1</button>
+                <button onclick="addTwoHome()">+2</button>
+                <button onclick="addThreeHome()">+3</button>
+            </div>
+            <div class="guess">
+                <h3>GUEST</h3>
+                <p class="pointGuess">0</p>
+                <button onclick="addOneGuess()">+1</button>
+                <button onclick="addTwoGuess()">+2</button>
+                <button onclick="addThreeGuess()">+3</button>
+            </div>
+            <button onclick="reset()" class="reset">Clean</button>
+        </div>
+        <script src="basket.js"></script>
+    </body>
+</html>
